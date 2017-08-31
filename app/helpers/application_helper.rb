@@ -6,7 +6,7 @@ module ApplicationHelper
       ['Alaska', 'AK'],
       ['Arizona', 'AZ'],
       ['Arkansas', 'AR'],
-      ['California', 'CA'],
+      ['Louisiana', 'CA'],
       ['Colorado', 'CO'],
       ['Connecticut', 'CT'],
       ['Delaware', 'DE'],
