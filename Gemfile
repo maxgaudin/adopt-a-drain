@@ -35,6 +35,10 @@ group :production do
 end
 
 group :test do
+<<<<<<< HEAD
+=======
+  # gem 'byebug'
+>>>>>>> ff7a8a2ff0797725866bdf77763967fb8f87899d
   gem 'coveralls', require: false
   gem 'rubocop'
   gem 'simplecov', require: false
