@@ -5,7 +5,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   # asset host
-  config.action_controller.asset_host = 'https://adoptadrain.sfwater.org'
+  config.action_controller.asset_host = 'https://adopt-drain-nola.herokuapp.com'
   config.action_mailer.asset_host = config.action_controller.asset_host
 
   # Eager load code on boot. This eager loads most of Rails and
