@@ -29,7 +29,7 @@ class ThingImporter
     def normalize_thing(csv_thing)
       # (lat, lng) = csv_thing['Location'].delete('()').split(',').map(&:strip)
       {
-        city_id: csv_thing['PUC_Maximo_Asset_ID'].gsub!('N-', ''),
+        city_id: csv_thing['PUC_Maximo_Asset_ID'],
         lat: csv_thing['lat'],
         lng: csv_thing['lng'],
         type: csv_thing['Drain_Type'],
